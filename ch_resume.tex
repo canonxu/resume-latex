@@ -1,0 +1,75 @@
+% %号后面是注释
+\documentclass[12pt,a4paer]{article}
+\usepackage{CJK}
+\usepackage[colorlinks, citecolor=red]{hyperref} %超链接
+\usepackage{geometry}%页边距
+\usepackage{multicol}%用于实现在同一页中实现不同的分栏
+\usepackage{multirow}%使用多栏宏包
+\usepackage{hhline} %画横向的包 此代码中未使用
+\pagestyle{empty}  %去掉默认页码
+
+\title{简历}
+\author{xindoo}
+
+\geometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}  %设置页边距
+\begin{document}
+\begin{CJK}{UTF8}{gbsn}  %如果要使用中文必须添加这句{gbsn}是使用宋体字
+\begin{center}
+{\LARGE \textbf{个人简历}}
+\end{center}
+
+\section*{{\large 基本信息}}
+%\hline %绘制一条水平的线
+\vspace{-1.8em}
+\begin{table}[!hbp]
+ \begin{tabular}{ll}  %这里做了一个两列的表格，只是没加边框线而已
+  \textbf{姓~~~~~~名：}徐佳能~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&\textbf{性~~~~~~别：}男\\
+   \textbf{出生年月：}1992年2月&\textbf{毕业时间：}2017年3月\\
+    \textbf{专~~~~~~业：}电子与通信工程&\textbf{籍~~~~~~贯：}江苏泰州\\ 
+     \textbf{手~~~~~~机：}+86 18217552550&\textbf{常用邮箱：}canonxu@sjtu.edu.cn\\
+      \textbf{~Github：}canonxu\\
+	   \textbf{博~~~~~~客：}\url{http://canonxu.com}   
+	   
+ \end{tabular}
+\end{table}
+\vspace{-3.3em}
+\section*{{\large 教育背景}}
+%\hline  
+\vspace{-1.0em}
+ \paragraph{}\textbf{\textbullet}~~本科：2010.09-2014.07~~~~~~~~西安交通大学~~~~~~~~~~电子科学与技术\vspace{-1.5em}
+  \paragraph{}\textbf{\textbullet}~~硕士：2014.09至今~~~~~~~~~~~~上海交通大学~~~~~~~~~~~电子与通信工程\vspace{-1.8em}
+\section*{{\large 主修课程}}
+ \vspace{-0.8em}
+  \paragraph{}\textit{\textbullet}~~C/C++程序设计、信号与系统、数字信号处理、微型计算机原理\vspace{-1.5em}
+   \paragraph{}\textit{\textbullet}~~高性能信息网络、数字图像处理、视觉计算与机器学习、DSP系统设计\vspace{-1.8em}
+ 
+
+\section*{{\large 专业技能}}
+ \vspace{-0.8em}
+  \paragraph{}\textit{\textbullet}~~熟悉Python，日常使用语言为Python\vspace{-1.5em}
+   \paragraph{}\textit{\textbullet}~~熟悉C/C++，熟悉Linux基本操作，熟悉Git\vspace{-1.5em}
+    \paragraph{}\textit{\textbullet}~~基本的算法能力，熟悉数据结构\vspace{-1.5em}
+     \paragraph{}\textit{\textbullet}~~了解HTML/CSS/javascript，了解JAVA，了解基本的网站架构\vspace{-1.5em}
+      \paragraph{}\textit{\textbullet}~~熟悉数字图像处理、计算机视觉，了解机器学习相关算法\vspace{-1.5em}
+  \section*{{\large 荣誉奖励}}
+%  \setlength{\parskip}{0.5\smallskip}
+%\hline 
+  \vspace{-0.8em} %不知道如何控制每行的格式，索性全弄成段落，然后使用这句代码调整行间距
+  \paragraph{}\textit{\textbullet}~~2011~~西安交通大学：思源奖学金 \vspace{-1.5em}
+   \paragraph{}\textit{\textbullet}~~2011~~西安交通大学：自强不息奖\vspace{-1.5em}
+    \paragraph{}\textit{\textbullet}~~2012~~西安交通大学：骑行天下俱乐部主席\vspace{-1.5em}
+     \paragraph{}\textit{\textbullet}~~2013~~西安交通大学：优秀社团负责人\vspace{-1.5em}
+      \paragraph{}\textit{\textbullet}~~2014~~上海交通大学：二等学业奖学金\vspace{-1.5em}        
+%\begin{multicols}{3}
+\section*{{\large 实习经历}}
+ \vspace{-1em}
+  \paragraph{}\textit{\textbullet2012.7-2012.8 }~~华天微电子有限公司：IC设计Intern\vspace{-1.5em}
+   \paragraph{}\textit{\textbullet2013.7-2013.9}~~中国科学院半导体所：Visit Student\vspace{-1.5em}
+\section*{{\large 兴趣爱好}}
+ \vspace{-0.8em}
+  \paragraph{}\textit{\textbullet}~~骑行 摇滚乐 跑步\vspace{-1.5em}
+\section*{{\large 自我评价}}
+ \vspace{-1em}
+  \paragraph{}\textit{\textbullet}~~乐观积极，热爱钻研，编程虐我千百遍，我待编程如初恋！\vspace{-1.5em}
+\end{CJK}
+\end{document}
