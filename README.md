@@ -1,1 +1,1 @@
-Here is my chinese%english resume compiled by latex
+###Here is my Chinese&English resume compiled by latex
